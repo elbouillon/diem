@@ -92,7 +92,7 @@ class sfWidgetFormDmDate extends sfWidgetFormI18nDate
             'name' => $name,
             'size' => 10,
             'id' => $this->generateId($name),
-            'class' => 'datepicker_me',
+            'class' => 'datepicker_me form-txt',
             'value' => $formattedValue
         ));
     }
